@@ -39,7 +39,7 @@ Never expose `SUPABASE_SERVICE_ROLE_KEY`, `CLOUDINARY_API_SECRET`, or `PAYSTACK_
 In Supabase Authentication URL Configuration, set the production Site URL to the deployed Dovel origin. Add both local and production callback URLs to the allowed Redirect URLs:
 
 - `http://localhost:3000/auth/callback`
-- `https://YOUR-DEPLOYED-DOMAIN/auth/callback`
+- `https://https://dovel-seven.vercel.app/
 
 The signup flow sends email confirmation links through `/auth/callback`, which exchanges the confirmation code for a session before redirecting into Dovel.
 
